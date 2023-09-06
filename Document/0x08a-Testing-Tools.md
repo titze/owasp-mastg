@@ -28,6 +28,23 @@ Comprehensive documentation, including an installation guide, tutorials, and usa
 
 You can use angr from a Python REPL - such as iPython - or script your approaches. Although angr has a bit of a steep learning curve, we do recommend using it when you want to brute force your way to a given state of an executable. Please see the "[Symbolic Execution](0x05c-Reverse-Engineering-and-Tampering.md#symbolic-execution "Symbolic Execution")" section of the "Reverse Engineering and Tampering" chapter as a great example on how this can work.
 
+### AppSweep
+
+[AppSweep](https://www.guardsquare.com/appsweep-mobile-application-security-testing) is a free mobile application security testing tool created by [Guardsquare](https://www.guardsquare.com/). It provides fast, automated application security testing to help mobile app teams quickly find and fix issues in code and dependencies.
+
+Purpose-built for Android and iOS developers, AppSweep offers actionable recommendations that align with the latest OWASP standards such as MASVS for building more secure mobile applications.
+
+By seamlessly integrating AppSweep into CI/CD pipeline, you can ensure continuous security checks, adhering to the best practices of DevSecOps.
+
+AppSweep provides a developer-friendly interface that allows you to easily navigate through the scan results. The results are categorized based on various criteria, including severity, OWASP categories/security levels, and whether the issue is in your code or in third-party libraries.
+
+<img src="Images/Chapters/0x08a/appsweep.png" width="100%" />
+
+To get started, you can create a free account [here](https://appsweep.guardsquare.com/) and immediately start scanning your app.
+
+Furthermore, AppSweep enables you to collaborate within your organization. You can share projects with team members as explained in [this help article](https://help.guardsquare.com/en/articles/12671-how-to-invite-your-teammates-to-your-appsweep-project) or with dedicated security teams, ensuring everyone is informed about the security posture of your mobile app.
+
+
 ### Frida
 
 [Frida](https://www.frida.re "Frida") is a free and open source dynamic code instrumentation toolkit written by Ole André Vadla Ravnås that works by injecting the [QuickJS](https://bellard.org/quickjs/) JavaScript engine (previously [Duktape](https://duktape.org/ "Duktape JavaScript Engine") and [V8](https://v8.dev/docs "V8 JavaScript Engine")) into the instrumented process. Frida lets you execute snippets of JavaScript into native apps on Android and iOS (as well as on [other platforms](https://www.frida.re/docs/home/ "So what is Frida, exactly?")).
